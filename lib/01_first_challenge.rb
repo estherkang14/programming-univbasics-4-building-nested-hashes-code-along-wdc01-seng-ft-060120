@@ -9,10 +9,24 @@ def first_challenge
          name: "Lady Montague",
          age: "54"
        }
-       hero: 
+       hero: {
+         name: "Romeo",
+         age: "15",
+         status: "alive"
        }
+       heros_friends: {
+         benvolio: {
+           name: "Benvolio",
+           age: "17",
+           attitude: worried
+         }
+         mercutio: {
+           name: "Mercutio",
+           age: "18",
+           attitude: "hot-headed"
+         }
        }
      }
-     }
+     
    }
 end
